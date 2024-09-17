@@ -23,15 +23,18 @@ This is a Streamlit web application designed to predict laptop prices based on u
 
 ## Setup Instructions
 
-### 1. Clone the Repository
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-repo/laptop-price-predictor.git
+   cd laptop-price-predictor
+   
+2. **Install Dependencies**:
+     Ensure Python is installed. Then, run:
 
-```bash
-git clone https://github.com/your-repo/laptop-price-predictor.git
-cd laptop-price-predictor
+   ```bash
+   pip install -r requirements.txt
 
-### 2. Install Dependencies
-Ensure Python is installed. Then, install the required packages:
+3. **Run the Application**:
 
-```bash
-Copy code
-pip install -r requirements.txt
+   ```bash
+   streamlit run app.py
